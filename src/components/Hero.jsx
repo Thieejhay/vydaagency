@@ -3,8 +3,11 @@ import HeroSlider, { Overlay, Slide} from "hero-slider";
 import { HashLink as Link } from 'react-router-hash-link';
 import Logo from '../assets/Logo.png';
 import Banner from '../assets/Results.png';
+import Banner3 from '../assets/Results1.png';
 import Banner1 from '../assets/Strategy.png';
+import Banner4 from '../assets/Strategy1.png';
 import Banner2 from '../assets/Create.png';
+import Banner5 from '../assets/Create1.png';
 import {HiOutlineMenu} from 'react-icons/hi';
 import {CgClose} from 'react-icons/cg';
 import { motion } from 'framer-motion';
@@ -124,17 +127,17 @@ const Hero = () => {
             
             <Slide
                 background={{
-                 backgroundImageSrc: Banner
+                 backgroundImageSrc: Banner3
                 }}
             />
             <Slide
                 background={{
-                 backgroundImageSrc: Banner1
+                 backgroundImageSrc: Banner4
                 }}
             />
             <Slide
                 background={{
-                 backgroundImageSrc: Banner2
+                 backgroundImageSrc: Banner5
                 }}
             />
             {/* <MenuNav /> */}
@@ -155,8 +158,8 @@ const Hero = () => {
                         <span className="text-[#000000]/70 text-2xl font-semibold mb-6">Our Services</span>
                         </Link>
                         <Link to='#team' smooth className="mb-6 pl-3" onClick = {() => {setToggleMenu(false)}}><span className="text-[#000000]/70 text-2xl font-semibold mb-6">Our Team</span></Link>
-                        <Link to='#business' smooth className="mb-6 pl-3" onClick = {() => {setToggleMenu(false)}}><span className="text-[#000000]/70 text-2xl font-semibold mb-6">Clients</span></Link>
-                        <Link to='#business' smooth className="mb-6 pl-3" onClick = {() => {setToggleMenu(false)}}><span className="text-[#000000]/70 text-2xl font-semibold mb-6">Contacts</span></Link>
+                        <Link to='#clients' smooth className="mb-6 pl-3" onClick = {() => {setToggleMenu(false)}}><span className="text-[#000000]/70 text-2xl font-semibold mb-6">Clients</span></Link>
+                        <Link to='#contact' smooth className="mb-6 pl-3" onClick = {() => {setToggleMenu(false)}}><span className="text-[#000000]/70 text-2xl font-semibold mb-6">Contacts</span></Link>
                     
                         
                 </motion.div>
