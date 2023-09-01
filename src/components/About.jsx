@@ -4,7 +4,7 @@ import Shape from '../assets/About shape.png'
 
 const About = () => {
   return (
-    <div className='flex flex-col bg-[#ffffff] w-screen lg:h-[44rem] lg:pt-8 pt-12 lg:gap-2 relative' id='about'>
+    <div className='flex flex-col bg-[#ffffff] w-screen lg:h-[44rem] h-fit lg:pt-8 pt-12 lg:gap-2 relative' id='about'>
         <div className='flex lg:pl-[13rem] pl-6 mb-4'>
             <span className='uppercase lg:px-16 px-6 lg:py-6 py-4 bg-[#273773] text-lg font-medium text-[#ffffff] rounded-tr-3xl rounded-bl-3xl font-gilroy'>About us</span>
         </div>
@@ -22,9 +22,9 @@ const About = () => {
                 </span>
             </div>
         </div>
-        <div className='flex lg:flex-row flex-col lg:gap-12 lg:pl-[13rem] px-4 lg:px-0 z-10 mt-3 lg:mt-0'>
+        <div className='flex lg:flex-row flex-col lg:gap-12 lg:pl-[13rem] gap-2 px-4 lg:px-0 z-10 mt-3 lg:mt-0'>
             <span className='lg:w-[28rem] h-[17rem] w-full rounded-md'>
-                <img src={Aboutt} alt='' className='w-fit h-fit'></img>
+                <img src={Aboutt} alt='' className='w-full h-full'></img>
             </span>
             <div className='flex flex-col lg:gap-8 gap-1 lg:h-[17rem] justify-center'>
                 <span className='text-[#273773] lg:text-2xl text-xl font-medium lg:w-[23rem] font-gilroyy italic'>"Giving you the time to maximize the full potential of your entity."</span>

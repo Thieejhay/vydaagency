@@ -15,25 +15,25 @@ const Services = () => {
         <div className='flex lg:flex-row flex-col w-full items-center justify-center gap-4'>
             <div className='flex flex-col pl-8 pr-6 py-8 gap-8 w-[22rem] h-[25rem] shadow-[0_3px_8px_rgba(0,0,0,0.24)] rounded-3xl hover:bg-[#273773] hover:duration-500 text-[#000000]/70 hover:text-[#ffffff]'>
                 <div className='flex gap-4'>
-                    <span className='w-12 h-12'><img src={Icon} alt='' className='w-fit h-fit'></img></span>
+                    <span className='w-12 h-12'><img src={Icon} alt='' className='w-full h-full'></img></span>
                     <span className='uppercase text-xl font-medium flex items-center'>Creative</span>
                 </div>
                 <div className='flex flex-col gap-2'>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-base font-light '><span className='text-lg font-semibold uppercase font-gilroyy'>Logos</span></span>
+                        <span className='text-lg font-semibold uppercase font-gilroyy'>Logos</span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-base font-light '><span className='text-lg font-semibold uppercase font-gilroyy'>Brand identity</span> </span>
+                        <span className='text-lg font-semibold uppercase font-gilroyy'>Brand identity</span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-base font-light'><span className='text-lg font-semibold uppercase font-gilroyy'>Promotional assets</span></span>
+                        <span className='text-lg font-semibold uppercase font-gilroyy'>Promotional assets</span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-base font-light '><span className='text-lg font-semibold uppercase font-gilroyy'>Templates</span></span>
+                        <span className='text-lg font-semibold uppercase font-gilroyy'>Templates</span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
@@ -43,7 +43,7 @@ const Services = () => {
             </div>
             <div className='flex flex-col pl-8 py-8 gap-8 w-[22rem] h-[25rem] shadow-[0_3px_8px_rgba(0,0,0,0.24)] rounded-3xl hover:bg-[#273773] hover:duration-500 text-[#000000]/70 hover:text-[#ffffff]'>
                 <div className='flex gap-4'>
-                    <span className='w-12 h-12'><img src={Icon2} alt='' className='w-fit h-fit'></img></span>
+                    <span className='w-12 h-12'><img src={Icon2} alt='' className='w-full h-full'></img></span>
                     <span className='uppercase text-xl font-medium flex items-center'>STRATEGY</span>
                 </div>
                 <div className='flex flex-col gap-2'>
@@ -83,7 +83,7 @@ const Services = () => {
             </div>
             <div className='flex flex-col pl-8 pr-16 py-8 h-[25rem] shadow-[0_3px_8px_rgba(0,0,0,0.24)] gap-8 w-[22rem] rounded-3xl hover:bg-[#273773] hover:duration-500 text-[#000000]/70 hover:text-[#ffffff]'>
                 <div className='flex gap-4'>
-                    <span className='w-12 h-12'><img src={Icon3} alt='' className='w-fit h-fit'></img></span>
+                    <span className='w-12 h-12'><img src={Icon3} alt='' className='w-full h-full'></img></span>
                     <span className='uppercase text-xl font-medium flex items-center'>Development</span>
                 </div>
                 <div className='flex flex-col gap-2'>
