@@ -16,52 +16,52 @@ const Services = () => {
             <div className='flex flex-col pl-8 pr-6 py-8 gap-8 w-[22rem] h-[25rem] shadow-[0_3px_8px_rgba(0,0,0,0.24)] rounded-3xl hover:bg-[#273773] hover:duration-500 text-[#000000]/70 hover:text-[#ffffff]'>
                 <div className='flex gap-4'>
                     <span className='w-12 h-12'><img src={Icon} alt='' className='w-full h-full'></img></span>
-                    <span className='uppercase text-xl font-medium flex items-center'>Creative</span>
+                    <span className='uppercase text-xl font-medium flex items-center font-gilroyy'>Creative</span>
                 </div>
                 <div className='flex flex-col gap-2'>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'>Logos</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'>Logos</span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'>Brand identity</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'>Brand identity</span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'>Promotional assets</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'>Promotional assets</span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'>Templates</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'>Templates</span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'>Video production</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'>Video production</span>
                     </div>
                 </div>
             </div>
             <div className='flex flex-col pl-8 py-8 gap-8 w-[22rem] h-[25rem] shadow-[0_3px_8px_rgba(0,0,0,0.24)] rounded-3xl hover:bg-[#273773] hover:duration-500 text-[#000000]/70 hover:text-[#ffffff]'>
                 <div className='flex gap-4'>
                     <span className='w-12 h-12'><img src={Icon2} alt='' className='w-full h-full'></img></span>
-                    <span className='uppercase text-xl font-medium flex items-center'>STRATEGY</span>
+                    <span className='uppercase text-xl font-medium flex items-center font-gilroyy'>STRATEGY</span>
                 </div>
                 <div className='flex flex-col gap-2'>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'>Public Relations</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'>Public Relations</span>
                     </div>
                      <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'>Corporate Communication</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'>Corporate Communication</span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'>Brand planning & Positioning</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'>Brand planning & Positioning</span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'> Digital & Media Strategy</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'> Digital & Media Strategy</span>
                     </div>
                     {/* <div className='flex gap-2'>
                         <span className='text-base font-bold'>.</span>
@@ -69,47 +69,47 @@ const Services = () => {
                     </div> */}
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'>SEO & SEM</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'>SEO & SEM</span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'>Lead & Client Generation</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'>Lead & Client Generation</span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'>Campaign Management</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'>Campaign Management</span>
                     </div>
                 </div>
             </div>
             <div className='flex flex-col pl-8 pr-16 py-8 h-[25rem] shadow-[0_3px_8px_rgba(0,0,0,0.24)] gap-8 w-[22rem] rounded-3xl hover:bg-[#273773] hover:duration-500 text-[#000000]/70 hover:text-[#ffffff]'>
                 <div className='flex gap-4'>
                     <span className='w-12 h-12'><img src={Icon3} alt='' className='w-full h-full'></img></span>
-                    <span className='uppercase text-xl font-medium flex items-center'>Development</span>
+                    <span className='uppercase text-xl font-medium flex items-center font-gilroyy'>Development</span>
                 </div>
                 <div className='flex flex-col gap-2'>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='textbaseg font-light'><span className='text-lg font-semibold uppercase font-gilroyy'>Brand</span></span>
+                        <span className='textbaseg font-light'><span className='text-lg font-semibold uppercase font-gilroy'>Brand</span></span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-base font-light'><span className='text-lg font-semibold uppercase font-gilroyy'>Website</span></span>
+                        <span className='text-base font-light'><span className='text-lg font-semibold uppercase font-gilroy'>Website</span></span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'>Social + Digital media</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'>Social + Digital media</span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'>Traditional media + advertising</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'>Traditional media + advertising</span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'>Event production</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'>Event production</span>
                     </div>
                     <div className='flex gap-2'>
                         <span className='flex items-center'><BsDot className='w-4'/></span>
-                        <span className='text-lg font-semibold uppercase font-gilroyy'>Campaign creation</span>
+                        <span className='text-lg font-semibold uppercase font-gilroy'>Campaign creation</span>
                     </div>
                 </div>
             </div>

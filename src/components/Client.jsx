@@ -22,7 +22,7 @@ import Image18 from '../assets/logo/Image 18.png'
 const Client = () => {
 
   return (
-    <div className='flex flex-col w-screen pb-6 lg:pt-20 pt-12 gap-2 font-gilroy' id='clients'>
+    <div className='flex flex-col w-screen pb-6 lg:pt-20 pt-16 gap-2 font-gilroy' id='clients'>
         <div className='flex flex-col gap-1 w-full items-center px-6'>
             <span className='uppercase lg:text-4xl text-2xl font-semibold text-[#273773] lg:mb-2 font-gilroyy'>Clients</span>
             <span className='lg:text-base text-sm font-light text-[#000000]/60 text-center'>No matter where you start, we're here to help. Here are some brands we've collaborated with.</span>

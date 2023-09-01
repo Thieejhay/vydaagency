@@ -12,7 +12,7 @@ import { HashLink as Link } from 'react-router-hash-link';
 const Footer = () => {
   return (
     <div className='flex lg:flex-row flex-col w-screen lg:pt-12 p-6 lg:pb-10 pb-8 lg:pl-52 pl-8 lg:gap-32 gap-4 bg-[#e5d2c4]/30 relative'>
-        <div className='flex absolute bottom-0 left-1/4 -z-10'><img src={Circle} alt='' className=''></img></div>
+        <div className='flex absolute -bottom-3 left-1/4 -z-10'><img src={Circle} alt='' className=''></img></div>
         <div className='lg:flex hidden absolute top-4 right-10 -z-10'><img src={Rec} alt='' className='lg:h-72 h-40'></img></div>
         <div className='flex absolute bottom-10 lg:right-10 right-16'><img src={Rec2} alt='' className=''></img></div>
         <div className='flex flex-col gap-6'>
