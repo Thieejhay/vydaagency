@@ -3,10 +3,10 @@ import bg from '../assets/Team1.png';
 import bg3 from '../assets/Team3.png';
 import bg4 from '../assets/Team4.png';
 import bg2 from '../assets/Team2.png';
-import Temi from '../assets/Temi.png';
+import Temi from '../assets/Temi1.png';
 import Sayo from '../assets/Sayo.png';
-import Marta from '../assets/Marta.png';
-import Sam from '../assets/Sam.png';
+import Marta from '../assets/Marta1.png';
+import Sam from '../assets/Sam1.png';
 
 const Team = () => {
   return (
@@ -14,10 +14,10 @@ const Team = () => {
         <div className='flex lg:flex-row flex-col'>
             <div className='flex relative basis-1/2 h-full'>
                 <span className='bg-black w-full lg:h-[30rem] h-[40rem] lg:flex hidden'>
-                    <img src={bg} alt='' className='w-full lg:h-[30rem] h-[40rem] opacity-40'></img>
+                    <img src={bg} alt='' className='w-full lg:h-[30rem] h-[40rem] opacity-20'></img>
                 </span>
                 <span className='bg-black w-full lg:h-[30rem] h-[43rem] lg:hidden flex'>
-                    <img src={bg3} alt='' className='w-full lg:h-[30rem] h-[43rem] opacity-40'></img>
+                    <img src={bg3} alt='' className='w-full lg:h-[30rem] h-[43rem] opacity-20'></img>
                 </span>
                 <div className='flex flex-col lg:gap-3 gap-1 text-[#ffffff] absolute lg:top-20 top-2 lg:left-52 left-16'>
                     <span className='uppercase w-fit lg:px-6 px-4 py-2 lg:py-4 bg-[#273773] text-lg font-medium text-[#ffffff] rounded-tr-3xl rounded-bl-3xl font-gilroyy'>Team</span>
@@ -29,10 +29,10 @@ const Team = () => {
             </div>
             <div className='flex relative basis-1/2 h-full'>
                 <span className='bg-black w-full lg:h-[30rem] h-[40rem] lg:flex hidden'>
-                    <img src={bg2} alt='' className='w-full lg:h-[30rem] h-[40rem] opacity-40'></img>
+                    <img src={bg2} alt='' className='w-full lg:h-[30rem] h-[40rem] opacity-20'></img>
                 </span>
                 <span className='bg-black w-full lg:h-[30rem] h-[43rem] lg:hidden flex'>
-                    <img src={bg4} alt='' className='w-full lg:h-[30rem] h-[43rem] opacity-40'></img>
+                    <img src={bg4} alt='' className='w-full lg:h-[30rem] h-[43rem] opacity-20'></img>
                 </span>
             </div>
         </div>

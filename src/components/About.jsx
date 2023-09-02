@@ -8,7 +8,7 @@ const About = () => {
         <div className='flex lg:pl-[13rem] pl-6 mb-4'>
             <span className='uppercase lg:px-16 px-6 lg:py-6 py-4 bg-[#273773] text-lg font-medium text-[#ffffff] rounded-tr-3xl rounded-bl-3xl font-gilroy'>About us</span>
         </div>
-        <div className='flex lg:flex-row flex-col lg:gap-20 gap-8 lg:pl-[13rem] pl-6'>
+        <div className='flex lg:flex-row flex-col lg:gap-20 gap-4 lg:pl-[13rem] pl-6'>
             <div className='flex flex-col lg:w-[26rem] gap-2'>
                 <span className='text-[#000000]/90 text-2xl lg:text-3xl tracking-wide font-semibold [word-spacing:px] font-gilroyy'>Your go to agency,</span>
                 <span className='text-[#000000]/90 text-2xl lg:text-3xl tracking-wide font-semibold [word-spacing:px] font-gilroyy'>providing marketing</span>
@@ -22,7 +22,7 @@ const About = () => {
                 </span>
             </div>
         </div>
-        <div className='flex lg:flex-row flex-col lg:gap-12 lg:pl-[13rem] gap-2 px-4 lg:px-0 z-10 mt-3 lg:mt-0'>
+        <div className='flex lg:flex-row flex-col lg:gap-12 lg:pl-[13rem] gap-4 px-4 lg:px-0 z-10 mt-5 lg:mt-0'>
             <span className='lg:w-[28rem] h-[17rem] w-full rounded-md'>
                 <img src={Aboutt} alt='' className='w-full h-full'></img>
             </span>

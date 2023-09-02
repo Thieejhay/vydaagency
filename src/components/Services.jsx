@@ -7,7 +7,7 @@ import {BsDot} from 'react-icons/bs';
 
 const Services = () => {
   return (
-    <div className='flex flex-col w-screen bg-[#ffffff] lg:pt-20 pt-12 lg:pb-12 pb-10 gap-12 font-gilroy' id='services'>
+    <div className='flex flex-col w-screen bg-[#ffffff] lg:pt-20 pt-12 lg:pb-12 pb-10 lg:gap-12 gap-8 font-gilroy' id='services'>
         <div className='flex flex-col gap-3 w-full items-center'>
             <span className='uppercase lg:text-4xl text-2xl font-black text-[#273773] font-gilroyy'>list of services</span>
             <span className='text-base font-light text-[#000000]/60 font-gilroy text-center px-3'>We will help a client's problems to develop the products they have with high quality</span>

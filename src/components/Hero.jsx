@@ -83,7 +83,7 @@ const Hero = () => {
             {/* <MenuNav /> */}
         </HeroSlider>
         <HeroSlider
-            height={"45rem"}
+            height={"42rem"}
             className='flex lg:hidden'
             autoplay={{
                 autoplayDuration: 5000
