@@ -163,7 +163,7 @@ const Client = () => {
                 </div>
         </div>
         <div className='flex lg:hidden flex-col w-full items-center justify-center'>
-                <div className='flex lg:gap-4'>
+                <div className='flex lg:gap-4 md:gap-20'>
                     <div className='flex lg:w-44 w-28 h-28 relative rounded-full lg:h-44  justify-center items-center'>
                         <img src={Image1} alt='' className='lg:w-32 lg:h-28 w-20 h-20'></img>
                         <div className='flex w-full h-full flex-col gap-2 bg-[#273773]/95 items-center justify-center rounded-full absolute opacity-0 hover:opacity-100 duration-500 top-0 left-0 right-0 bottom-0'>
@@ -183,7 +183,7 @@ const Client = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex lg:gap-4'>
+                <div className='flex lg:gap-4 md:gap-20'>
                     <div className='flex lg:w-44 w-28 h-28 relative rounded-full lg:h-44 justify-center items-center'>
                         <img src={Image4} alt='' className='lg:w-32 lg:h-28 w-20 h-20'></img>
                         <div className='flex w-full h-full flex-col gap-2 bg-[#273773]/95 items-center justify-center rounded-full absolute opacity-0 hover:opacity-100 duration-500 top-0 left-0 right-0 bottom-0'>
@@ -203,7 +203,7 @@ const Client = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex lg:gap-4'>
+                <div className='flex lg:gap-4 md:gap-20'>
                     <div className='flex lg:w-44 w-28 h-28 relative rounded-full lg:h-44 justify-center items-center'>
                         <img src={Image6} alt='' className='lg:w-32 lg:h-28 w-20 h-20'></img>
                         <div className='flex w-full h-full flex-col gap-2 bg-[#273773]/95 items-center justify-center rounded-full absolute opacity-0 hover:opacity-100 duration-500 top-0 left-0 right-0 bottom-0'>
@@ -223,7 +223,7 @@ const Client = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex lg:gap-4'>
+                <div className='flex lg:gap-4 md:gap-20'>
                     <div className='flex relative lg:w-44 w-28 h-28 rounded-full lg:h-44 justify-center items-center'>
                         <img src={Image10} alt='' className='lg:w-32 lg:h-11 w-20 h-8'></img>
                         <div className='flex w-full h-full flex-col gap-2 bg-[#273773]/95 items-center justify-center rounded-full absolute opacity-0 hover:opacity-100 duration-500 top-0 left-0 right-0 bottom-0'>
@@ -243,7 +243,7 @@ const Client = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex lg:gap-4 gap-3'>
+                <div className='flex lg:gap-4 md:gap-20'>
                     <div className='flex relative lg:w-44 w-28 h-28 rounded-full lg:h-44 justify-center items-center'>
                         <img src={Image13} alt='' className='lg:w-32 lg:h-24 w-20 h-12'></img>
                         <div className='flex w-full h-full flex-col gap-2 bg-[#273773]/95 items-center justify-center rounded-full absolute opacity-0 hover:opacity-100 duration-500 top-0 left-0 right-0 bottom-0'>
@@ -263,7 +263,7 @@ const Client = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex lg:gap-4'>
+                <div className='flex lg:gap-4 md:gap-20'>
                     <div className='flex lg:w-44 w-28 h-28 relative rounded-full lg:h-44 justify-center items-center'>
                         <img src={Image16} alt='' className='lg:w-32 lg:h-20 w-20 h-12'></img>
                         <div className='flex w-full h-full flex-col gap-2 bg-[#273773]/95 items-center justify-center rounded-full absolute opacity-0 hover:opacity-100 duration-500 top-0 left-0 right-0 bottom-0'>

@@ -45,10 +45,10 @@ const Hero = () => {
             }}>
             <Overlay>
                 <div className='flex justify-center '>
-                    <div className='flex gap-12 lg:w-[62rem] w-screen px-4 lg:px-0 lg:justify-center h-16 items-center lg:bg-white/80 rounded-b-lg boder'>
+                    <div className='flex gap-12 lg:w-[62rem] w-screen px-4 lg:px-0 lg:justify-center h-16 items-center lg:bg-white rounded-b-lg boder'>
                         <span><img src={Logo} alt='' className='w-32 h-10'></img></span>
                         <div className='lg:flex hidden gap-16 justify-center'>
-                            <Link to='#home' smooth><span className='uppercase textsms font-medium text-[#273773] font-gilroy cursor-pointer'>Home</span></Link>
+                            <Link to='#home' smooth><span className='uppercase text-sm font-medium text-[#273773] font-gilroy cursor-pointer'>Home</span></Link>
                             <Link to='#about' smooth><span className='uppercase text-sm font-medium text-[#273773] font-gilroy cursor-pointer'>About us</span></Link>
                             <Link to='#services' smooth><span className='uppercase text-sm font-medium text-[#273773] font-gilroy cursor-pointer'>our services</span></Link>
                             <Link to='#team' smooth><span className='uppercase text-sm font-medium text-[#273773] font-gilroy cursor-pointer'>our team</span></Link>
@@ -58,10 +58,13 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className='flex justify-center items-end h-full pb-20'>
-                    <div className='flex flex-col text-[#ffffff] py-2 px-12 border-2 border-[#ffffff] rounded-full tracking-wide hover:bg-[#ffffff] bg-[#273773] hover:text-[#273773] hover:duration-300 hover:border-none'>
+                    <Link to='#contact' smooth>
+                        <div className='flex flex-col text-[#ffffff] py-2 px-12 border-2 border-[#ffffff] rounded-full tracking-wide hover:bg-[#ffffff] bg-[#273773] hover:text-[#273773] hover:duration-300 hover:border-none'>
                         <span className='uppercase text-lg font-medium flex justify-center font-gilroy'>have a project?</span>
                         <span className='text-sm font-light flex justify-center font-gilroy'>We Can Help</span>
-                    </div>
+                        </div>
+                    </Link>
+                    
                 </div>
             </Overlay>
             
@@ -84,7 +87,7 @@ const Hero = () => {
         </HeroSlider>
         <HeroSlider
             height={"42rem"}
-            className='flex lg:hidden'
+            className='flex md:hidden'
             autoplay={{
                 autoplayDuration: 5000
             }}
@@ -108,20 +111,22 @@ const Hero = () => {
             }}>
             <Overlay>
                 <div className='flex justify-center w-screen'>
-                    <div className='flex gap-12 lg:w-[62rem] w-full px-4 lg:px-0 justify-between h-16 items-center lg:bg-white rounded-b-lg boder'>
-                        <span><img src={Logo} alt='' className='w-32 h-10'></img></span>
+                    <div className='flex gap-12 lg:w-[62rem] w-full px-4 lg:px-0 justify-between h-16 items-center bg-white rounded-b-lg boder'>
+                        <span><img src={Logo} alt='' className='w-28 h-8'></img></span>
                         <div className='flex '>
                             <span>
-                                <HiOutlineMenu className='text-[#273773] text-5xl' onClick = {() => {setToggleMenu(true)}}/>
+                                <HiOutlineMenu className='text-[#273773] text-3xl' onClick = {() => {setToggleMenu(true)}}/>
                             </span>
                         </div>
                     </div>
                 </div>
                 <div className='flex justify-center items-end h-full pb-20 w-full'>
-                    <div className='flex flex-col text-[#ffffff] lg:py-2 py-4 px-4 lg:px-2 p border-2 border-[#ffffff] rounded-full tracking-wide hover:bg-[#ffffff] bg-[#273773] hover:duration-300 hover:border-none'>
+                    <Link to='#contact' smooth>
+                        <div className='flex flex-col text-[#ffffff] lg:py-2 py-4 px-4 lg:px-2 p border-2 border-[#ffffff] rounded-full tracking-wide hover:bg-[#ffffff] bg-[#273773] hover:duration-300 hover:border-none'>
                         <span className='uppercase lg:text-base text-sm font-normal flex justify-center font-gilroy '>have a project?</span>
                         <span className='lg:text-sm text-xs font-light flex justify-center font-gilroy'>We Can Help</span>
-                    </div>
+                        </div>
+                    </Link>
                 </div>
             </Overlay>
             
@@ -138,6 +143,71 @@ const Hero = () => {
             <Slide
                 background={{
                  backgroundImageSrc: Banner5
+                }}
+            />
+            {/* <MenuNav /> */}
+        </HeroSlider>
+        <HeroSlider
+            height={"35rem"}
+            className='lg:hidden hidden md:flex'
+            autoplay={{
+                autoplayDuration: 5000
+            }}
+            accessibility={{
+
+            }}
+            controller={{
+                initialSlide: 1,
+                slidingDuration: 700,
+                slidingDelay: 50,
+                onSliding: (nextSlide) =>
+                    console.debug("onSliding(nextSlide): ", nextSlide),
+                onBeforeSliding: (previousSlide, nextSlide) =>
+                    console.debug(
+                        "onBeforeSliding(previousSlide, nextSlide): ",
+                            previousSlide,
+                            nextSlide
+                        ),
+                onAfterSliding: (nextSlide) =>
+                    console.debug("onAfterSliding(nextSlide): ", nextSlide)
+            }}>
+            <Overlay>
+                <div className='flex justify-center '>
+                    <div className='flex gap-6 w-[40rem] justify-center h-16 items-center bg-white rounded-b-lg boder'>
+                        <span><img src={Logo} alt='' className='w-28 h-10'></img></span>
+                        <div className='flex gap-6 justify-center'>
+                            <Link to='#home' smooth><span className='uppercase text-xs font-medium text-[#273773] font-gilroy cursor-pointer'>Home</span></Link>
+                            <Link to='#about' smooth><span className='uppercase text-xs font-medium text-[#273773] font-gilroy cursor-pointer'>About us</span></Link>
+                            <Link to='#services' smooth><span className='uppercase text-xs font-medium text-[#273773] font-gilroy cursor-pointer'>our services</span></Link>
+                            <Link to='#team' smooth><span className='uppercase text-xs font-medium text-[#273773] font-gilroy cursor-pointer'>our team</span></Link>
+                            <Link to='#clients' smooth><span className='uppercase text-xs font-medium text-[#273773] font-gilroy cursor-pointer'>clients</span></Link>
+                            <Link to='#contact' smooth><span className='uppercase text-xs font-medium text-[#273773] font-gilroy cursor-pointer'>contact</span></Link>
+                        </div>
+                    </div>
+                </div>
+                <div className='flex justify-center items-end h-full pb-20'>
+                    <Link to='#contact' smooth>
+                        <div className='flex flex-col text-[#ffffff] py-2 px-6 border-2 border-[#ffffff] rounded-full tracking-wide hover:bg-[#ffffff] bg-[#273773] hover:text-[#273773] hover:duration-300 hover:border-none'>
+                        <span className='uppercase text-lg font-medium flex justify-center font-gilroy'>have a project?</span>
+                        <span className='text-sm font-light flex justify-center font-gilroy'>We Can Help</span>
+                        </div>
+                    </Link>
+                </div>
+            </Overlay>
+            
+            <Slide
+                background={{
+                 backgroundImageSrc: Banner
+                }}
+            />
+            <Slide
+                background={{
+                 backgroundImageSrc: Banner1
+                }}
+            />
+            <Slide
+                background={{
+                 backgroundImageSrc: Banner2,
                 }}
             />
             {/* <MenuNav /> */}

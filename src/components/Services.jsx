@@ -7,12 +7,12 @@ import {BsDot} from 'react-icons/bs';
 
 const Services = () => {
   return (
-    <div className='flex flex-col w-screen bg-[#ffffff] lg:pt-20 pt-12 lg:pb-12 pb-10 lg:gap-12 gap-8 font-gilroy' id='services'>
-        <div className='flex flex-col gap-3 w-full items-center'>
+    <div className='flex flex-col w-screen bg-[#ffffff] lg:pt-20 pt-12 lg:pb-12 pb-10 lg:gap-10 gap-5 font-gilroy' id='services'>
+        <div className='flex flex-col lg:gap-3 gap-2 w-full items-center'>
             <span className='uppercase lg:text-4xl text-2xl font-black text-[#273773] font-gilroyy'>list of services</span>
-            <span className='text-base font-light text-[#000000]/60 font-gilroy text-center px-3'>We will help a client's problems to develop the products they have with high quality</span>
+            <span className='text-base font-light text-[#000000]/60 font-gilroy text-center lg:px-32 px-4'>Explore our extensive array of services, which has been professionally handpicked to help you enhance your company and succeed in today's changing environment. Learn how our strategic excellence, innovation, and unrelenting dedication can fuel your success.</span>
         </div>
-        <div className='flex lg:flex-row flex-col w-full items-center justify-center gap-4'>
+        <div className='flex lg:flex-row md:flex-row md:flex-wrap flex-col w-full items-center justify-center gap-4'>
             <div className='flex flex-col pl-8 pr-6 py-8 gap-8 w-[22rem] h-[25rem] shadow-[0_3px_8px_rgba(0,0,0,0.24)] rounded-3xl hover:bg-[#273773] hover:duration-500 text-[#000000]/70 hover:text-[#ffffff]'>
                 <div className='flex gap-4'>
                     <span className='w-12 h-12'><img src={Icon} alt='' className='w-full h-full'></img></span>
@@ -114,7 +114,7 @@ const Services = () => {
                 </div>
             </div>
         </div>
-        <div className='flex justify-end pr-32 lg:-mt-4 -mt-6'>
+        <div className='flex justify-end pr-32 lg:-mt-4 -mt-6 md:-mt-2'>
             <span className='p-4 text-base font-normal bg-[#273773] text-[#ffffff] rounded-full w-fit'>Learn more</span>
         </div>
     </div>

@@ -8,22 +8,22 @@ const About = () => {
         <div className='flex lg:pl-[13rem] pl-6 mb-4'>
             <span className='uppercase lg:px-16 px-6 lg:py-6 py-4 bg-[#273773] text-lg font-medium text-[#ffffff] rounded-tr-3xl rounded-bl-3xl font-gilroy'>About us</span>
         </div>
-        <div className='flex lg:flex-row flex-col lg:gap-20 gap-4 lg:pl-[13rem] pl-6'>
-            <div className='flex flex-col lg:w-[26rem] gap-2'>
+        <div className='flex md:flex-row flex-col lg:gap-20 md:gap-10 gap-4 lg:pl-[13rem] pl-6'>
+            <div className='flex flex-col lg:w-[26rem] md:w-[38rem] gap-2'>
                 <span className='text-[#000000]/90 text-2xl lg:text-3xl tracking-wide font-semibold [word-spacing:px] font-gilroyy'>Your go to agency,</span>
                 <span className='text-[#000000]/90 text-2xl lg:text-3xl tracking-wide font-semibold [word-spacing:px] font-gilroyy'>providing marketing</span>
                 <span className='text-[#000000]/90 text-2xl lg:text-3xl tracking-wide font-semibold [word-spacing:px] font-gilroyy'>business support solutions.</span>
                 <span className='text-[#000000]/90 text-2xl lg:text-3xl tracking-wide font-semibold [word-spacing:px] font-gilroyy'>Creative {'>'} PR {'>'} Strategy</span>
             </div>
-            <div className='flex flex-col lg:w-[33rem] pr-5 lg:pr-0 gap-2'>
-                <span className='text-[#000000]/60 text-xl font-normal font-gilroy'>Vyda Agnecy strives to maximize the hidden potential within a brand using creativity, publicity and strategy.
+            <div className='flex flex-col lg:w-[33rem] md:w-fit pr-5 lg:pr-0 gap-2'>
+                <span className='text-[#000000]/60 text-xl md:text-lg lg:text-xl font-normal font-gilroy'>Vyda Agnecy strives to maximize the hidden potential within a brand using creativity, publicity and strategy.
                 </span>
-                <span className='text-[#000000]/60 text-xl font-normal font-gilroy'>We thrive on delivering a holistic approach to local and international clients who demand fast, specialized and professional services, enabling them with the opportunity to continue to grow their business.
+                <span className='text-[#000000]/60 text-xl md:text-lg lg:text-xl font-normal font-gilroy'>We thrive on delivering a holistic approach to local and international clients who demand fast, specialized and professional services, enabling them with the opportunity to continue to grow their business.
                 </span>
             </div>
         </div>
-        <div className='flex lg:flex-row flex-col lg:gap-12 lg:pl-[13rem] gap-4 px-4 lg:px-0 z-10 mt-5 lg:mt-0'>
-            <span className='lg:w-[28rem] h-[17rem] w-full rounded-md'>
+        <div className='flex md:flex-row flex-col lg:gap-12 lg:pl-[13rem] gap-4 px-4 lg:px-0 z-10 mt-5 md:-mt-4 lg:mt-0 w-screen'>
+            <span className='lg:w-[28rem] md:w-[32rem] h-[17rem] w-full rounded-md'>
                 <img src={Aboutt} alt='' className='w-full h-full'></img>
             </span>
             <div className='flex flex-col lg:gap-8 gap-1 lg:h-[17rem] justify-center'>
