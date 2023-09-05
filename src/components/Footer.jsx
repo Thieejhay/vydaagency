@@ -18,7 +18,7 @@ const Footer = () => {
             <span className=''><img src={Logo} alt='' className='w-40 h-14'></img></span>
             <div className='flex flex-col'>
                 <span className='text-base font-gilroyy font-normal text-[#000000]/60'>Your go to agency,</span>
-                <span className='text-base font-gilroyy font-normal text-[#000000]/60'>providing marketing</span>
+                <span className='text-base font-gilroyy font-normal text-[#000000]/60'>providing marketing,</span>
                 <span className='text-base font-gilroyy font-normal text-[#000000]/60'>business support solutions.</span>
                 <span className='text-base font-gilroyy font-normal text-[#000000]/60'>Creative {'>'} PR {'>'} Strategy</span>
             </div>

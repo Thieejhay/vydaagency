@@ -11,14 +11,14 @@ const About = () => {
         <div className='flex md:flex-row flex-col lg:gap-20 md:gap-10 gap-4 lg:pl-[13rem] pl-6'>
             <div className='flex flex-col lg:w-[26rem] md:w-[38rem] gap-2'>
                 <span className='text-[#000000]/90 text-2xl lg:text-3xl tracking-wide font-semibold [word-spacing:px] font-gilroyy'>Your go to agency,</span>
-                <span className='text-[#000000]/90 text-2xl lg:text-3xl tracking-wide font-semibold [word-spacing:px] font-gilroyy'>providing marketing</span>
+                <span className='text-[#000000]/90 text-2xl lg:text-3xl tracking-wide font-semibold [word-spacing:px] font-gilroyy'>providing marketing,</span>
                 <span className='text-[#000000]/90 text-2xl lg:text-3xl tracking-wide font-semibold [word-spacing:px] font-gilroyy'>business support solutions.</span>
                 <span className='text-[#000000]/90 text-2xl lg:text-3xl tracking-wide font-semibold [word-spacing:px] font-gilroyy'>Creative {'>'} PR {'>'} Strategy</span>
             </div>
             <div className='flex flex-col lg:w-[33rem] md:w-fit pr-5 lg:pr-0 gap-2'>
                 <span className='text-[#000000]/60 text-xl md:text-lg lg:text-xl font-normal font-gilroy'>Vyda Agnecy strives to maximize the hidden potential within a brand using creativity, publicity and strategy.
                 </span>
-                <span className='text-[#000000]/60 text-xl md:text-lg lg:text-xl font-normal font-gilroy'>We thrive on delivering a holistic approach to local and international clients who demand fast, specialized and professional services, enabling them with the opportunity to continue to grow their business.
+                <span className='text-[#000000]/60 text-xl md:text-lg lg:text-xl font-normal font-gilroy'>We thrive on delivering a holistic approach to local and international clients who demand fast, specialized and professional services, enabling them with the opportunity to grow their business.
                 </span>
             </div>
         </div>
