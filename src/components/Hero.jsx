@@ -20,7 +20,7 @@ const Hero = () => {
   return (
     <div id='home'>
         <HeroSlider
-            height={"100vh"}
+            height={"38rem"}
             className='lg:flex hidden'
             autoplay={{
                 autoplayDuration: 5000

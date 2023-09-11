@@ -4,7 +4,7 @@ import Shape from '../assets/About shape.png'
 
 const About = () => {
   return (
-    <div className='flex flex-col bg-[#ffffff] w-screen lg:h-[44rem] h-fit lg:pt-8 pt-12 lg:gap-2 relative' id='about'>
+    <div className='flex flex-col bg-[#ffffff] w-screen lg:h-[42rem] h-fit lg:pt-8 pt-12 lg:gap-2 relative' id='about'>
         <div className='flex lg:pl-[13rem] pl-6 mb-4'>
             <span className='uppercase lg:px-16 px-6 lg:py-6 py-4 bg-[#273773] text-lg font-medium text-[#ffffff] rounded-tr-3xl rounded-bl-3xl font-gilroy'>About us</span>
         </div>
