@@ -47,7 +47,7 @@ const Contact = () => {
                         </span>
                     </li>
                     <li className='flex justify-center lg:mt-4 mt-1'>
-                        <span><button className='border-box lg:px-8 px-3 py-3 text-white bg-[#273773] text-sm rounded-full' type='submit' value='Send'>Send us a message</button></span>
+                        <span><button className='border-box p-4 text-white bg-[#273773] text-sm rounded-full hover:bg-[#ffffff] hover:text-[#273773] hover:border hover:border-[#273773] hover:duration-300' type='submit' value='Send'>Send us a message</button></span>
                     </li>
                 </ul>
             </form>

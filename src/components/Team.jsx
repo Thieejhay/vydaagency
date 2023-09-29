@@ -42,7 +42,7 @@ const Team = () => {
                     <img src={Sayo} alt='' className='w-full h-full'></img>
                 </span>
                 <span className='flex flex-col lg:gap-2 items-center'>
-                    <span className='text-xl font-normal text-[#000000]/80'>Sayo Johnson</span>
+                    <span className='text-xl font-normal text-[#273773]'>Sayo Johnson</span>
                     <span className='text-base font-light text-[#000000]/50'>Brand Strategist</span>
                 </span>
             </div>
@@ -51,7 +51,7 @@ const Team = () => {
                     <img src={Temi} alt='' className='w-full h-full'></img>
                 </span>
                 <span className='flex flex-col lg:gap-2 items-center'>
-                    <span className='text-xl font-normal text-[#000000]/80'>Temi Tijani</span>
+                    <span className='text-xl font-normal text-[#273773]'>Temi Tijani</span>
                     <span className='text-base font-light text-[#000000]/50'>Account Director</span>
                 </span>
             </div>
@@ -60,7 +60,7 @@ const Team = () => {
                         <img src={Sam} alt='' className='w-full h-full flex items-center'></img>
                     </span>
                     <span className='flex flex-col lg:gap-2 items-center'>
-                        <span className='text-xl font-normal text-[#000000]/80'>Samuel Fayemi</span>
+                        <span className='text-xl font-normal text-[#273773]'>Samuel Fayemi</span>
                         <span className='text-base font-light text-[#000000]/50'>Lead Designer</span>
                     </span>
             </div>
@@ -69,7 +69,7 @@ const Team = () => {
                         <img src={Marta} alt='' className='w-full h-full'></img>
                     </span>
                     <span className='flex flex-col lg:gap-2 items-center'>
-                        <span className='text-xl font-normal text-[#000000]/80'>Martha Agbortian</span>
+                        <span className='text-xl font-normal text-[#273773]'>Martha Agbortian</span>
                         <span className='text-base font-light text-[#000000]/50'>Intern</span>
                     </span>
             </div>

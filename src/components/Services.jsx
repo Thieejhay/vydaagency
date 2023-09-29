@@ -117,7 +117,7 @@ const Services = () => {
         </div>
         <Link to='#contact' smooth>
             <div className='flex lg:justify-end justify-center lg:pr-32 lg:-mt-4 md:-mt-2'>
-                <span className='p-4 text-base font-normal bg-[#273773] text-[#ffffff] rounded-full w-fit'>Learn more</span>
+                <span className='p-4 text-base font-normal bg-[#273773] text-[#ffffff] rounded-full w-fit hover:bg-[#ffffff] hover:text-[#273773] hover:border hover:border-[#273773] hover:duration-300'>Learn more</span>
             </div>
         </Link> 
     </div>

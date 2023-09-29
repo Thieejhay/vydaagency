@@ -26,11 +26,12 @@ const Hero = () => {
                 autoplayDuration: 5000
             }}
             accessibility={{
-
+                shouldDisplayButtons: false,
             }}
             controller={{
                 initialSlide: 1,
                 slidingDuration: 700,
+            
                 slidingDelay: 50,
                 onSliding: (nextSlide) =>
                     console.debug("onSliding(nextSlide): ", nextSlide),
@@ -57,10 +58,14 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex justify-center items-end h-full pb-20'>
+                <div className='flex flex-col gap-8 absolute bottom-12 left-44 p-5 bg-white/70 rounded-lg'>
+                    <div className='flex flex-col gap-8'>
+                        <span className='text-5xl text-[#273773] font-gilroyy w-[24rem]'>Welcome to Vyda Agency</span>
+                        <span className='text-2xl w-96 text-[#273773]/95'>Where your brand's full potential becomes its reality. Let's embark on this journey of growth together.</span>
+                    </div>
                     <Link to='#contact' smooth>
-                        <div className='flex flex-col text-[#ffffff] py-2 px-12 border-2 border-[#ffffff] rounded-full tracking-wide hover:bg-[#ffffff] bg-[#273773] hover:text-[#273773] hover:duration-300 hover:border-none'>
-                        <span className='uppercase text-lg font-medium flex justify-center font-gilroy'>have a project?</span>
+                        <div className='flex flex-col py-2 px-6 border-2 border-[#273773] rounded-full text-[#273773] hover:duration-300 hover:text-[#ffffff] hover:bg-[#273773] hover:border-none w-fit'>
+                        <span className='text-base font-medium flex justify-center font-gilroy'>Have a project?</span>
                         <span className='text-sm font-light flex justify-center font-gilroy'>We Can Help</span>
                         </div>
                     </Link>
@@ -120,13 +125,18 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex justify-center items-end h-full pb-20 w-full'>
+                <div className='flex flex-col gap-5 absolute bottom-2 left-4 p-3 pt-6 bg-white/70 rounded-lg'>
+                    <div className='flex flex-col gap-4'>
+                        <span className='text-2xl text-[#273773] font-gilroyy'>Welcome to Vyda Agency</span>
+                        <span className='text-xl w-60 text-[#273773]/95'>Where your brand's full potential becomes its reality. Let's embark on this journey of growth together.</span>
+                    </div>
                     <Link to='#contact' smooth>
-                        <div className='flex flex-col text-[#ffffff] lg:py-2 py-4 px-4 lg:px-2 p border-2 border-[#ffffff] rounded-full tracking-wide hover:bg-[#ffffff] bg-[#273773] hover:duration-300 hover:border-none'>
-                        <span className='uppercase lg:text-base text-sm font-normal flex justify-center font-gilroy '>have a project?</span>
-                        <span className='lg:text-sm text-xs font-light flex justify-center font-gilroy'>We Can Help</span>
+                        <div className='flex flex-col py-2 px-6 border-2 border-[#273773] rounded-full text-[#273773] hover:duration-300 hover:text-[#ffffff] hover:bg-[#273773] hover:border-none w-fit'>
+                        <span className='text-base font-medium flex justify-center font-gilroy'>Have a project?</span>
+                        <span className='text-sm font-light flex justify-center font-gilroy'>We Can Help</span>
                         </div>
                     </Link>
+                    
                 </div>
             </Overlay>
             
@@ -154,7 +164,7 @@ const Hero = () => {
                 autoplayDuration: 5000
             }}
             accessibility={{
-
+                shouldDisplayButtons: false,
             }}
             controller={{
                 initialSlide: 1,
@@ -185,13 +195,18 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex justify-center items-end h-full pb-20'>
+                <div className='flex flex-col gap-5 absolute bottom-2 left-24 p-3 pt-6 bg-white/70 rounded-lg'>
+                    <div className='flex flex-col gap-4'>
+                        <span className='text-3xl text-[#273773] font-gilroyy'>Welcome to Vyda Agency</span>
+                        <span className='text-xl w-80 text-[#273773]/95'>Where your brand's full potential becomes its reality. Let's embark on this journey of growth together.</span>
+                    </div>
                     <Link to='#contact' smooth>
-                        <div className='flex flex-col text-[#ffffff] py-2 px-6 border-2 border-[#ffffff] rounded-full tracking-wide hover:bg-[#ffffff] bg-[#273773] hover:text-[#273773] hover:duration-300 hover:border-none'>
-                        <span className='uppercase text-lg font-medium flex justify-center font-gilroy'>have a project?</span>
+                        <div className='flex flex-col py-2 px-6 border-2 border-[#273773] rounded-full text-[#273773] hover:duration-300 hover:text-[#ffffff] hover:bg-[#273773] hover:border-none w-fit'>
+                        <span className='text-base font-medium flex justify-center font-gilroy'>Have a project?</span>
                         <span className='text-sm font-light flex justify-center font-gilroy'>We Can Help</span>
                         </div>
                     </Link>
+                    
                 </div>
             </Overlay>
             

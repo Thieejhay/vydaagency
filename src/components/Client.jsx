@@ -22,9 +22,9 @@ import Image18 from '../assets/logo/Image 18.png'
 const Client = () => {
 
   return (
-    <div className='flex flex-col w-screen pb-6 lg:pt-20 pt-16 gap-2 font-gilroy' id='clients'>
+    <div className='flex flex-col w-screen pb-6 lg:pt-4 pt-16 gap-2 font-gilroy' id='clients'>
         <div className='flex flex-col gap-1 w-full items-center px-6'>
-            <span className='uppercase lg:text-4xl text-2xl font-semibold text-[#273773] lg:mb-2 font-gilroyy'>Clients</span>
+            <span className='uppercase lg:text-4xl text-2xl font-semibold text-[#273773] lg:mb-2 font-gilroyy'>Client</span>
             <span className='lg:text-base text-sm font-light text-[#000000]/60 text-center'>No matter where you start, we're here to help. Here are some brands we've collaborated with.</span>
             <span className='lg:text-base text-sm font-light text-[#000000]/60 text-center'>They've experienced our results...you're up next.</span>
         </div>
@@ -147,7 +147,7 @@ const Client = () => {
                         </div>
                     </div>
                     <div className='flex lg:w-44 w-20 h-20 relative rounded-full lg:h-44 justify-center items-center'>
-                        <img src={Image17} alt='' className='lg:w-32 lg:h-16 w-20 h-20'></img>
+                        <img src={Image17} alt='' className='lg:w-32 lg:h-24 w-20 h-20'></img>
                         <div className='flex w-full h-full flex-col gap-2 bg-[#273773]/95 items-center justify-center rounded-full absolute opacity-0 hover:opacity-100 duration-500 top-0 left-0 right-0 bottom-0'>
                             <span className='text-lg font-semibold text-center px-2 text-[#ffffff]'>NORD</span>
                             <span className='text-xs text-center font-medium px-2 text-[#ffffff]'></span>
@@ -271,9 +271,9 @@ const Client = () => {
                         </div>
                     </div>
                     <div className='flex lg:w-44 w-28 h-28 relative rounded-full lg:h-44 justify-center items-center'>
-                        <img src={Image17} alt='' className='lg:w-32 lg:h-16 w-20 h-12'></img>
+                        <img src={Image17} alt='' className='lg:w-8 lg:h-28 w-16 h-12'></img>
                         <div className='flex w-full h-full flex-col gap-2 bg-[#273773]/95 items-center justify-center rounded-full absolute opacity-0 hover:opacity-100 duration-500 top-0 left-0 right-0 bottom-0'>
-                            <span className='text-lg font-semibold text-center px-2 text-[#ffffff]'>NORD</span>
+                            <span className='text-lg font-semibold text-center px-2 text-[#ffffff]'>Nord</span>
                         </div>
                     </div>
                     <div className='flex lg:w-44 w-28 h-28  relative rounded-full lg:h-44 justify-center items-center'>
